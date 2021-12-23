@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+body {
+  min-height: 100vh;
+  background-image: url(./assets/Desktopbg.png),
+    linear-gradient(180deg, #f3f7fe 0%, #ebeffa 100%);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
