@@ -130,7 +130,7 @@ const App = () => {
         const saleOpen = await contract.methods.presaleOpen().call();
         if (saleOpen) {
           const { data } = await axios.get(
-            `https://defi.mobiwebsolutionz.com/nft/gregs/verify_whitelist.php?wallet_address=${account}`
+            `https://defi.mobiwebsolutionz.com/nft/whitelisted/verify_whitelist.php?wallet_address=${account}`
           );
           const isVerified = data.verified;
           // console.log(isVerified, typeof data.verified);
